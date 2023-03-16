@@ -1,11 +1,11 @@
 import DivPannel from "./DivPannel";
 import MyButton from "./MyButton";
 
-function App(props) {
+function App() {
   return(
     <div>
-        <MyButton></MyButton>
         <DivPannel></DivPannel>
+        <MyButton></MyButton>
     </div>
   )
 };
